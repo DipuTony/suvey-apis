@@ -1,0 +1,29 @@
+_id: req_242fb355620044319e9338d2b7ca30bc
+type: Request
+parentId: fld_8606067bf055456fb6e6201b83472829
+modified: 1672847712611
+created: 1672846763543
+url: "{{ _.baseUrl }}/api/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"admin@gmail.com",
+    	"password":"Admin1#"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672846763543
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
