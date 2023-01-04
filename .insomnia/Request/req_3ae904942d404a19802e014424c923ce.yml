@@ -1,25 +1,24 @@
-_id: req_242fb355620044319e9338d2b7ca30bc
+_id: req_3ae904942d404a19802e014424c923ce
 type: Request
-parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1672853966948
-created: 1672846763543
-url: "{{ _.baseUrl }}/api/auth/login"
-name: Login
+parentId: fld_29aa24bf63a049638f6538362d0c8ea0
+modified: 1672855939063
+created: 1672855489251
+url: "{{ _.baseUrl }}/api/masters/taluka/v1/edit"
+name: Taluka Update
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"admin@gmail.com",
-    	"password":"Admin1#"
+    	"id":1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1672846763543
+metaSortKey: -1672855489251
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

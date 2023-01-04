@@ -1,16 +1,19 @@
 _id: req_737cd66faef740008bceba40ad5d4b16
 type: Request
 parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1672848191330
+modified: 1672853979654
 created: 1672848168675
-url: "{{ _.baseUrl }}/api/logout"
+url: "{{ _.baseUrl }}/api/auth/logout"
 name: Logout
 description: ""
 method: POST
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+  disabled: false
 metaSortKey: -1672847585987
 isPrivate: false
 settingStoreCookies: true
