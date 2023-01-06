@@ -1,12 +1,12 @@
 _id: env_c24802e0c1004def9c8621e363af99fd
 type: Environment
 parentId: env_f44a7485f8f61b6ed296e217671796b46bd555be
-modified: 1672854002600
+modified: 1673019800820
 created: 1672846800127
 name: .env
 data:
   baseUrl: localhost:8000
-  bearer: 3|Dbzcpeqb32hlRdy3T3qKMEFlHmhyeWSsLi4VJWuC
+  bearer: 9|PqACHgI07hEzwXF2YDeLv5jsCdQLPtjQczumSYn2
 dataPropertyOrder:
   "&":
     - baseUrl
