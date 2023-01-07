@@ -1,7 +1,7 @@
 _id: req_ac49fe3956cc4954afeb9704b3f11363
 type: Request
 parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1673019429854
+modified: 1673113661908
 created: 1672847585937
 url: "{{ _.baseUrl }}/api/auth/register"
 name: Register
@@ -12,16 +12,18 @@ body:
   text: |-
     {
     	"name":"employee1",
-    	"email":"employee1@gmail.com",
-    	"mobile":"1234567890",
+    	"email":"employee2@gmail.com",
+    	"mobile":"9876543210",
     	"password":"Admin1#",
-    	"villageId":1
+    	"gramPanchayatId":1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
 metaSortKey: -1672847585937
 isPrivate: false
 settingStoreCookies: true

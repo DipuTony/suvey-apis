@@ -1,0 +1,23 @@
+_id: req_3c92ed6e6b6d43bebddec3369f7bcbb2
+type: Request
+parentId: fld_123f042579214ed68bc6a3ed1d89d86f
+modified: 1673024094143
+created: 1673024083244
+url: "{{ _.baseUrl }}/api/masters/village/v1/retrieve"
+name: Retrieve
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673021534456
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

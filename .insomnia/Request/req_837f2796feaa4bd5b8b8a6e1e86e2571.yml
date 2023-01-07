@@ -1,20 +1,17 @@
-_id: req_4fcfd0a7beba4f4388e4635f13d41cf3
+_id: req_837f2796feaa4bd5b8b8a6e1e86e2571
 type: Request
 parentId: fld_123f042579214ed68bc6a3ed1d89d86f
-modified: 1673111272752
-created: 1673021534306
-url: "{{ _.baseUrl }}/api/masters/village/v1/store"
-name: Store
+modified: 1673111469817
+created: 1673023331561
+url: "{{ _.baseUrl }}/api/masters/village/v1/show"
+name: Show
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"gramPradhanName":"Mukhiya Ji",
-    	"gramPradhanMobile":"0123456789",
-    	"gramPanchayatId":"1",
-    	"village_name":"Baliya"
+    	"id":"1"
     }
 parameters: []
 headers:
@@ -23,7 +20,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1673021534306
+metaSortKey: -1673021534406
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
