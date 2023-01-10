@@ -1,23 +1,19 @@
-_id: req_1ba9ff623c0d4df1ab15a6743493127e
+_id: req_eb6fdeedc7c94b1e99e31f50475e113f
 type: Request
 parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1673371240800
-created: 1673364408283
-url: "{{ _.baseUrl }}/api/auth/v1/edit"
-name: Edit
+modified: 1673372453266
+created: 1673371419387
+url: "{{ _.baseUrl }}/api/auth/v1/change-password"
+name: Change Password
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id": "3",
-    	"name": "employee2",
-    	"email": "employee2@gmail.com",
-    	"mobile":"9876543210",
-    	"gramPanchayatId":"2",
-    	"password":"",
-    	"status":1
+    	"mobile":"0123456789",
+    	"oldPassword":"1234",
+    	"newPassword":"Admin1#"
     }
 parameters: []
 headers:
@@ -27,7 +23,7 @@ authentication:
   type: bearer
   token: "{{ _.bearer }}"
   disabled: false
-metaSortKey: -1672847586137
+metaSortKey: -1672847586187
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

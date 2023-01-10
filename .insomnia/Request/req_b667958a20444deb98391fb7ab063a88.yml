@@ -1,0 +1,23 @@
+_id: req_b667958a20444deb98391fb7ab063a88
+type: Request
+parentId: fld_de35af8776804b38b1fd1e75ce81b7dd
+modified: 1673372975025
+created: 1673372856422
+url: "{{ _.baseUrl }}/api/questions/v1/get-all-questions"
+name: Get Question Lists
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673372856422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
