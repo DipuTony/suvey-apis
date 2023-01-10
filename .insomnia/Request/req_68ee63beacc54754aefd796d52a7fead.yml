@@ -1,25 +1,26 @@
-_id: req_242fb355620044319e9338d2b7ca30bc
+_id: req_68ee63beacc54754aefd796d52a7fead
 type: Request
-parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1673362628091
-created: 1672846763543
-url: "{{ _.baseUrl }}/api/auth/login"
-name: Login
+parentId: fld_29aa24bf63a049638f6538362d0c8ea0
+modified: 1673367913412
+created: 1673367863219
+url: "{{ _.baseUrl }}/api/masters/taluka/v1/get-taluka-by-district"
+name: Taluka by District id
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"mobile":"0123456789",
-    	"password":"Admin1#"
+    	"districtId":3
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
-metaSortKey: -1672846763543
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672855489451
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

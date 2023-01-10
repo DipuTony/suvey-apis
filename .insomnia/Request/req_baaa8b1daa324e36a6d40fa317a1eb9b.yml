@@ -1,25 +1,26 @@
-_id: req_242fb355620044319e9338d2b7ca30bc
+_id: req_baaa8b1daa324e36a6d40fa317a1eb9b
 type: Request
-parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1673362628091
-created: 1672846763543
-url: "{{ _.baseUrl }}/api/auth/login"
-name: Login
+parentId: fld_626a1d8f5f3c4466b966ac30502404b0
+modified: 1673368268514
+created: 1673368235903
+url: "{{ _.baseUrl }}/api/masters/panchayat/v1/get-by-taluka"
+name: Get By Taluka
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"mobile":"0123456789",
-    	"password":"Admin1#"
+    	"talukaId":1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
-metaSortKey: -1672846763543
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672935582900
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
