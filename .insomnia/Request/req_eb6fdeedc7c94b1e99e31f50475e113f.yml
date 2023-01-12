@@ -1,7 +1,7 @@
 _id: req_eb6fdeedc7c94b1e99e31f50475e113f
 type: Request
 parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1673372453266
+modified: 1673540571691
 created: 1673371419387
 url: "{{ _.baseUrl }}/api/auth/v1/change-password"
 name: Change Password
@@ -11,7 +11,6 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"mobile":"0123456789",
     	"oldPassword":"1234",
     	"newPassword":"Admin1#"
     }
