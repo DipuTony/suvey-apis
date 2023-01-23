@@ -1,0 +1,56 @@
+_id: req_0d9d9be0fbc74e6b9694b50296587294
+type: Request
+parentId: fld_80adb073c6d94124bc715c2c4581fe20
+modified: 1673544442967
+created: 1673118549596
+url: "{{ _.baseUrl }}/api/survey/v1/store"
+name: Survey
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"villageId": 2,
+    	"nameOfHead": "Broad",
+    	"age": "55",
+    	"maritalStatus": 0,
+    	"noOfDependencies": 6,
+    	"relations": [
+    		{
+    			"name": "Dhokla",
+    			"age": 50,
+    			"relation": "Sister"
+    		},
+    		{
+    			"name": "Binod",
+    			"age": 50,
+    			"relation": "Brother"
+    		}
+    	],
+    	"questions": [
+    		{
+    			"questionId": 11,
+    			"answer": "Yes I Like the most"
+    		},
+    		{
+    			"questionId": 12,
+    			"answer": "Yes We have"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673118549596
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_f0ed2704760d45d0a5ca66cdaeab11d1
+type: Request
+parentId: fld_626a1d8f5f3c4466b966ac30502404b0
+modified: 1672937535136
+created: 1672937513681
+url: "{{ _.baseUrl }}/api/masters/panchayat/v1/retrieve"
+name: Retrieve All Lists
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672935582850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

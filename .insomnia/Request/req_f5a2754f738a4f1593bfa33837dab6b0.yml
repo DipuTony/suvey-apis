@@ -1,0 +1,30 @@
+_id: req_f5a2754f738a4f1593bfa33837dab6b0
+type: Request
+parentId: fld_626a1d8f5f3c4466b966ac30502404b0
+modified: 1673541771615
+created: 1672936887869
+url: "{{ _.baseUrl }}/api/masters/panchayat/v1/show"
+name: Show by id
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672935582800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

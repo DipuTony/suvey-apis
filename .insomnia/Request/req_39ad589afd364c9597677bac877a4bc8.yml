@@ -1,0 +1,23 @@
+_id: req_39ad589afd364c9597677bac877a4bc8
+type: Request
+parentId: fld_824e4b7dcb1347f497ff141e30fab9cd
+modified: 1673115484129
+created: 1673115467722
+url: "{{ _.baseUrl }}/api/masters/states/v1/get-all"
+name: Get All States
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673068136807.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

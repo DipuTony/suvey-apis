@@ -1,0 +1,30 @@
+_id: req_ee6e50ccc58d415bbac391aeb60ec72f
+type: Request
+parentId: fld_123f042579214ed68bc6a3ed1d89d86f
+modified: 1674496175543
+created: 1673368997965
+url: "{{ _.baseUrl }}/api/masters/village/v1/get-by-panchayat"
+name: Get by Panchayat
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"panchayatId":4
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673021534506
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

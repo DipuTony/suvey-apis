@@ -1,0 +1,23 @@
+_id: req_edd4197334f74c2a8d18d7578ad84975
+type: Request
+parentId: fld_80adb073c6d94124bc715c2c4581fe20
+modified: 1673545634349
+created: 1673545578850
+url: "{{ _.baseUrl }}/api/survey/v1/list-survey"
+name: List Surveys
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673118549646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

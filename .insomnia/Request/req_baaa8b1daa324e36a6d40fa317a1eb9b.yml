@@ -1,0 +1,30 @@
+_id: req_baaa8b1daa324e36a6d40fa317a1eb9b
+type: Request
+parentId: fld_626a1d8f5f3c4466b966ac30502404b0
+modified: 1673540274263
+created: 1673368235903
+url: "{{ _.baseUrl }}/api/masters/panchayat/v1/get-by-taluka"
+name: Get By Taluka
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"talukaId":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672935582900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

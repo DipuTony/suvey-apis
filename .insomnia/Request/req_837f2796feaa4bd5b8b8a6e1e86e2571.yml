@@ -1,0 +1,30 @@
+_id: req_837f2796feaa4bd5b8b8a6e1e86e2571
+type: Request
+parentId: fld_123f042579214ed68bc6a3ed1d89d86f
+modified: 1673111469817
+created: 1673023331561
+url: "{{ _.baseUrl }}/api/masters/village/v1/show"
+name: Show
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":"1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673021534406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

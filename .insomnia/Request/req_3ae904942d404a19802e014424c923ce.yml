@@ -1,0 +1,34 @@
+_id: req_3ae904942d404a19802e014424c923ce
+type: Request
+parentId: fld_29aa24bf63a049638f6538362d0c8ea0
+modified: 1672934260285
+created: 1672855489251
+url: "{{ _.baseUrl }}/api/masters/taluka/v1/edit"
+name: Taluka Update
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":1,
+    	"stateId":"1",
+    	"districtId":"5",
+    	"taluka_name":"Hariharganj",
+    	"status":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672855489251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

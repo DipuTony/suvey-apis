@@ -1,0 +1,34 @@
+_id: req_ac49fe3956cc4954afeb9704b3f11363
+type: Request
+parentId: fld_8606067bf055456fb6e6201b83472829
+modified: 1673540174694
+created: 1672847585937
+url: "{{ _.baseUrl }}/api/auth/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"employee4",
+    	"email":"employee4@gmail.com",
+    	"mobile":"7894561230",
+    	"password":"Admin1#",
+    	"gramPanchayatId":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672847585937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

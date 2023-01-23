@@ -1,0 +1,35 @@
+_id: req_154782a1ddd14c58b2e291cb62908127
+type: Request
+parentId: fld_626a1d8f5f3c4466b966ac30502404b0
+modified: 1672936708124
+created: 1672936450526
+url: "{{ _.baseUrl }}/api/masters/panchayat/v1/edit"
+name: Update
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":1,
+    	"talukaId":1,
+    	"districtId":1,
+    	"stateId":1,
+    	"gram_panchayat_name":"Dema",
+    	"status":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672935582750
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

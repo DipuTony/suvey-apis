@@ -1,0 +1,33 @@
+_id: req_81c7178a39d044f88c0528a52ffe84e5
+type: Request
+parentId: fld_626a1d8f5f3c4466b966ac30502404b0
+modified: 1673366306638
+created: 1672935582700
+url: "{{ _.baseUrl }}/api/masters/panchayat/v1/store"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"talukaId":2,
+    	"districtId":1,
+    	"stateId":1,
+    	"gram_panchayat_name":"Dema"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672935582700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

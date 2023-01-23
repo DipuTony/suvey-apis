@@ -1,0 +1,31 @@
+_id: req_a6a8ace9b1044a7b81281576e0fd1a8e
+type: Request
+parentId: fld_8606067bf055456fb6e6201b83472829
+modified: 1673371216220
+created: 1673364040569
+url: "{{ _.baseUrl }}/api/auth/v1/employee-dtls"
+name: Details
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id":"1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+  disabled: false
+metaSortKey: -1672847586087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
