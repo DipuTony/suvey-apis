@@ -1,25 +1,26 @@
-_id: req_242fb355620044319e9338d2b7ca30bc
+_id: req_eff86630c9ab4cf783e27504ef396701
 type: Request
-parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1674576267544
-created: 1672846763543
-url: "{{ _.baseUrl }}/api/auth/login"
-name: Login
+parentId: fld_80adb073c6d94124bc715c2c4581fe20
+modified: 1674579311862
+created: 1674579125495
+url: "{{ _.baseUrl }}/api/survey/v1/get-survey-by-village"
+name: Surveys by Village Id
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"mobile":"0123456789",
-    	"password":"Admin1#"
+    	"villageId":2
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
-metaSortKey: -1672846763543
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1674298583535.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
