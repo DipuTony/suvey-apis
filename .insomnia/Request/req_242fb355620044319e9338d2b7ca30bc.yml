@@ -1,7 +1,7 @@
 _id: req_242fb355620044319e9338d2b7ca30bc
 type: Request
 parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1674576267544
+modified: 1675098781074
 created: 1672846763543
 url: "{{ _.baseUrl }}/api/auth/login"
 name: Login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"mobile":"0123456789",
+    	"mobile":"9876543210",
     	"password":"Admin1#"
     }
 parameters: []
