@@ -1,11 +1,11 @@
 _id: env_13f0804f7b0148bba2182678fc3217ca
 type: Environment
 parentId: env_f44a7485f8f61b6ed296e217671796b46bd555be
-modified: 1674971181770
+modified: 1675350206685
 created: 1673544123453
 name: Server .env
 data:
-  bearer: 434|K2JsuIy7n1CsVC3wdmuFQQRNETo7zJg8t3t57BT0
+  bearer: 505|yOo5KATwbyAkH8p9mRhsdv1095MrCC1u3xJ4dA98
   baseUrl: https://api.kishansuvidha.com
 dataPropertyOrder:
   "&":
