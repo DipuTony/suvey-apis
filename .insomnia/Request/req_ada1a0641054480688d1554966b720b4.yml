@@ -1,0 +1,44 @@
+_id: req_ada1a0641054480688d1554966b720b4
+type: Request
+parentId: fld_80adb073c6d94124bc715c2c4581fe20
+modified: 1686162348781
+created: 1686158555833
+url: "{{ _.baseUrl }}/api/survey/v1/upload-survey-photos"
+name: Upload Photo
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_4bc50de3ea39430d8c10665c265913a4
+      name: farmerId
+      value: "1"
+      description: ""
+    - id: pair_9f4ae96ad6de4610b87dd657c8448c25
+      name: photo1
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\User\Pictures\screenshots\Annotation 2023-01-23 213305.png
+    - id: pair_470c0e34eb2f4f3883cc597d52888e67
+      name: photo2
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\User\Pictures\screenshots\Annotation 2023-01-31 223523.png
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1673116644427.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

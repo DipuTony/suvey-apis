@@ -1,19 +1,19 @@
-_id: req_42bed024d2034c8abb26672602450c67
+_id: req_3eab7fbac8cc42698c5c1331fde6fdba
 type: Request
-parentId: fld_80adb073c6d94124bc715c2c4581fe20
-modified: 1687069252537
-created: 1674975448096
-url: "{{ _.baseUrl }}/api/survey/v1/export-to-excel"
-name: Excel Export
+parentId: fld_4970de6a1d5041cab86898f8f4f88342
+modified: 1685382758827
+created: 1685382743152
+url: "{{ _.baseUrl }}/api/admin-districts/v1/retrieve-all"
+name: Retrieve all
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1674003575062.9375
+metaSortKey: -1685347203319.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

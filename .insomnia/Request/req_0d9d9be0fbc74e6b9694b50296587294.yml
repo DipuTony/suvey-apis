@@ -1,7 +1,7 @@
 _id: req_0d9d9be0fbc74e6b9694b50296587294
 type: Request
 parentId: fld_80adb073c6d94124bc715c2c4581fe20
-modified: 1675351024794
+modified: 1686158558210
 created: 1673118549596
 url: "{{ _.baseUrl }}/api/survey/v1/store"
 name: Survey
@@ -15,7 +15,7 @@ body:
     	"nameOfHead": "Manual",
     	"age": "55",
     	"maritalStatus": 0,
-    	"noOfDependencies": 6,
+    	"noOfDependencies": 1,
     	"longitude":"20.6541",
     	"latitude":"31.65879",
     	"relations": [
@@ -52,7 +52,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1673118549596
+metaSortKey: -1673116644377.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

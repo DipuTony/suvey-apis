@@ -1,17 +1,20 @@
-_id: req_b667958a20444deb98391fb7ab063a88
+_id: req_9332d7efc8054116b1218c54c5021b5d
 type: Request
-parentId: fld_de35af8776804b38b1fd1e75ce81b7dd
-modified: 1685548757518
-created: 1673372856422
-url: "{{ _.baseUrl }}/api/questions/v1/get-all-questions"
-name: Get Question Lists
+parentId: fld_58bab72fe668479d922646ff224ba539
+modified: 1685815552515
+created: 1685548629390
+url: "{{ _.baseUrl }}/api/questions/v1/edit"
+name: Edit
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"language":"English"
+    	"id":"1",
+    	"question":"abcd",
+    	"questionInHindi":"123",
+    	"deactivateStatus":0
     }
 parameters: []
 headers:
@@ -20,7 +23,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1673372856422
+metaSortKey: -1682700600240
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

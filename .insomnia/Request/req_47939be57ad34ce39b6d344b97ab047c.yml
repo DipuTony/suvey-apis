@@ -1,27 +1,20 @@
-_id: req_a6a8ace9b1044a7b81281576e0fd1a8e
+_id: req_47939be57ad34ce39b6d344b97ab047c
 type: Request
 parentId: fld_8606067bf055456fb6e6201b83472829
-modified: 1685468029160
-created: 1673364040569
-url: "{{ _.baseUrl }}/api/auth/v1/employee-dtls"
-name: Details
+modified: 1685379742810
+created: 1685379738811
+url: "{{ _.baseUrl }}/api/auth/v1/get-all-admins"
+name: Get All Admins
 description: ""
 method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    		"id":"55"
-    }
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
+headers: []
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
   disabled: false
-metaSortKey: -1672847586087
+metaSortKey: -1672847586012
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

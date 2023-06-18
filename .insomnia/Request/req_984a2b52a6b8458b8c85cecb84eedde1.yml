@@ -1,17 +1,17 @@
-_id: req_b667958a20444deb98391fb7ab063a88
+_id: req_984a2b52a6b8458b8c85cecb84eedde1
 type: Request
-parentId: fld_de35af8776804b38b1fd1e75ce81b7dd
-modified: 1685548757518
-created: 1673372856422
-url: "{{ _.baseUrl }}/api/questions/v1/get-all-questions"
-name: Get Question Lists
+parentId: fld_4970de6a1d5041cab86898f8f4f88342
+modified: 1685382749910
+created: 1685382670705
+url: "{{ _.baseUrl }}/api/admin-districts/v1/get-by-id"
+name: Show
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"language":"English"
+    	"id":"1"
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1673372856422
+metaSortKey: -1685341310499.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
